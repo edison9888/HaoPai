@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5E688414A221B900A7ED41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E688314A221B900A7ED41 /* UIKit.framework */; };
+		EC5E688614A221B900A7ED41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E688514A221B900A7ED41 /* Foundation.framework */; };
+		EC5E688814A221B900A7ED41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E688714A221B900A7ED41 /* CoreGraphics.framework */; };
+		EC5E688E14A221B900A7ED41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC5E688C14A221B900A7ED41 /* InfoPlist.strings */; };
+		EC5E689014A221B900A7ED41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5E688F14A221B900A7ED41 /* main.m */; };
+		EC5E689414A221B900A7ED41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5E689314A221B900A7ED41 /* AppDelegate.m */; };
+		EC5E689C14A221B900A7ED41 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E689B14A221B900A7ED41 /* SenTestingKit.framework */; };
+		EC5E689D14A221B900A7ED41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E688314A221B900A7ED41 /* UIKit.framework */; };
+		EC5E689E14A221B900A7ED41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E688514A221B900A7ED41 /* Foundation.framework */; };
+		EC5E68A614A221BA00A7ED41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC5E68A414A221BA00A7ED41 /* InfoPlist.strings */; };
+		EC5E68A914A221BA00A7ED41 /* HaoPaiAppV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5E68A814A221BA00A7ED41 /* HaoPaiAppV2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5E689F14A221BA00A7ED41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5E687614A221B900A7ED41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5E687E14A221B900A7ED41;
+			remoteInfo = HaoPaiAppV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5E687F14A221B900A7ED41 /* HaoPaiAppV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaoPaiAppV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E688314A221B900A7ED41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC5E688514A221B900A7ED41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC5E688714A221B900A7ED41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC5E688B14A221B900A7ED41 /* HaoPaiAppV2-Info.plist */ = {isa = PBXFileReference; path = "HaoPaiAppV2-Info.plist"; sourceTree = "<group>"; };
+		EC5E688D14A221B900A7ED41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC5E688F14A221B900A7ED41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC5E689114A221B900A7ED41 /* HaoPaiAppV2-Prefix.pch */ = {isa = PBXFileReference; path = "HaoPaiAppV2-Prefix.pch"; sourceTree = "<group>"; };
+		EC5E689214A221B900A7ED41 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC5E689314A221B900A7ED41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC5E689A14A221B900A7ED41 /* HaoPaiAppV2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaoPaiAppV2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E689B14A221B900A7ED41 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC5E68A314A221BA00A7ED41 /* HaoPaiAppV2Tests-Info.plist */ = {isa = PBXFileReference; path = "HaoPaiAppV2Tests-Info.plist"; sourceTree = "<group>"; };
+		EC5E68A514A221BA00A7ED41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC5E68A714A221BA00A7ED41 /* HaoPaiAppV2Tests.h */ = {isa = PBXFileReference; path = HaoPaiAppV2Tests.h; sourceTree = "<group>"; };
+		EC5E68A814A221BA00A7ED41 /* HaoPaiAppV2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaoPaiAppV2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5E687C14A221B900A7ED41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5E688414A221B900A7ED41 /* UIKit.framework in Frameworks */,
+				EC5E688614A221B900A7ED41 /* Foundation.framework in Frameworks */,
+				EC5E688814A221B900A7ED41 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5E689614A221B900A7ED41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5E689C14A221B900A7ED41 /* SenTestingKit.framework in Frameworks */,
+				EC5E689D14A221B900A7ED41 /* UIKit.framework in Frameworks */,
+				EC5E689E14A221B900A7ED41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5E687414A221B900A7ED41 = {
+			isa = PBXGroup;
+			children = (
+				EC5E688914A221B900A7ED41 /* HaoPaiAppV2 */,
+				EC5E68A114A221BA00A7ED41 /* HaoPaiAppV2Tests */,
+				EC5E688214A221B900A7ED41 /* Frameworks */,
+				EC5E688014A221B900A7ED41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5E688014A221B900A7ED41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E687F14A221B900A7ED41 /* HaoPaiAppV2.app */,
+				EC5E689A14A221B900A7ED41 /* HaoPaiAppV2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5E688214A221B900A7ED41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E688314A221B900A7ED41 /* UIKit.framework */,
+				EC5E688514A221B900A7ED41 /* Foundation.framework */,
+				EC5E688714A221B900A7ED41 /* CoreGraphics.framework */,
+				EC5E689B14A221B900A7ED41 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC5E688914A221B900A7ED41 /* HaoPaiAppV2 */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E689214A221B900A7ED41 /* AppDelegate.h */,
+				EC5E689314A221B900A7ED41 /* AppDelegate.m */,
+				EC5E688A14A221B900A7ED41 /* Supporting Files */,
+			);
+			path = HaoPaiAppV2;
+			sourceTree = "<group>";
+		};
+		EC5E688A14A221B900A7ED41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E688B14A221B900A7ED41 /* HaoPaiAppV2-Info.plist */,
+				EC5E688C14A221B900A7ED41 /* InfoPlist.strings */,
+				EC5E688F14A221B900A7ED41 /* main.m */,
+				EC5E689114A221B900A7ED41 /* HaoPaiAppV2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC5E68A114A221BA00A7ED41 /* HaoPaiAppV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E68A714A221BA00A7ED41 /* HaoPaiAppV2Tests.h */,
+				EC5E68A814A221BA00A7ED41 /* HaoPaiAppV2Tests.m */,
+				EC5E68A214A221BA00A7ED41 /* Supporting Files */,
+			);
+			path = HaoPaiAppV2Tests;
+			sourceTree = "<group>";
+		};
+		EC5E68A214A221BA00A7ED41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E68A314A221BA00A7ED41 /* HaoPaiAppV2Tests-Info.plist */,
+				EC5E68A414A221BA00A7ED41 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5E687E14A221B900A7ED41 /* HaoPaiAppV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5E68AC14A221BA00A7ED41 /* Build configuration list for PBXNativeTarget "HaoPaiAppV2" */;
+			buildPhases = (
+				EC5E687B14A221B900A7ED41 /* Sources */,
+				EC5E687C14A221B900A7ED41 /* Frameworks */,
+				EC5E687D14A221B900A7ED41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaoPaiAppV2;
+			productName = HaoPaiAppV2;
+			productReference = EC5E687F14A221B900A7ED41 /* HaoPaiAppV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5E689914A221B900A7ED41 /* HaoPaiAppV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5E68AF14A221BA00A7ED41 /* Build configuration list for PBXNativeTarget "HaoPaiAppV2Tests" */;
+			buildPhases = (
+				EC5E689514A221B900A7ED41 /* Sources */,
+				EC5E689614A221B900A7ED41 /* Frameworks */,
+				EC5E689714A221B900A7ED41 /* Resources */,
+				EC5E689814A221B900A7ED41 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5E68A014A221BA00A7ED41 /* PBXTargetDependency */,
+			);
+			name = HaoPaiAppV2Tests;
+			productName = HaoPaiAppV2Tests;
+			productReference = EC5E689A14A221B900A7ED41 /* HaoPaiAppV2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5E687614A221B900A7ED41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EC5E687914A221B900A7ED41 /* Build configuration list for PBXProject "HaoPaiAppV2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC5E687414A221B900A7ED41;
+			productRefGroup = EC5E688014A221B900A7ED41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5E687E14A221B900A7ED41 /* HaoPaiAppV2 */,
+				EC5E689914A221B900A7ED41 /* HaoPaiAppV2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5E687D14A221B900A7ED41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5E688E14A221B900A7ED41 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5E689714A221B900A7ED41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5E68A614A221BA00A7ED41 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC5E689814A221B900A7ED41 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5E687B14A221B900A7ED41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5E689014A221B900A7ED41 /* main.m in Sources */,
+				EC5E689414A221B900A7ED41 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5E689514A221B900A7ED41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5E68A914A221BA00A7ED41 /* HaoPaiAppV2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5E68A014A221BA00A7ED41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5E687E14A221B900A7ED41 /* HaoPaiAppV2 */;
+			targetProxy = EC5E689F14A221BA00A7ED41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5E688C14A221B900A7ED41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5E688D14A221B900A7ED41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC5E68A414A221BA00A7ED41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5E68A514A221BA00A7ED41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5E68AA14A221BA00A7ED41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC5E68AB14A221BA00A7ED41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5E68AD14A221BA00A7ED41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaoPaiAppV2/HaoPaiAppV2-Prefix.pch";
+				INFOPLIST_FILE = "HaoPaiAppV2/HaoPaiAppV2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC5E68AE14A221BA00A7ED41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaoPaiAppV2/HaoPaiAppV2-Prefix.pch";
+				INFOPLIST_FILE = "HaoPaiAppV2/HaoPaiAppV2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC5E68B014A221BA00A7ED41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HaoPaiAppV2.app/HaoPaiAppV2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaoPaiAppV2/HaoPaiAppV2-Prefix.pch";
+				INFOPLIST_FILE = "HaoPaiAppV2Tests/HaoPaiAppV2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EC5E68B114A221BA00A7ED41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HaoPaiAppV2.app/HaoPaiAppV2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HaoPaiAppV2/HaoPaiAppV2-Prefix.pch";
+				INFOPLIST_FILE = "HaoPaiAppV2Tests/HaoPaiAppV2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5E687914A221B900A7ED41 /* Build configuration list for PBXProject "HaoPaiAppV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5E68AA14A221BA00A7ED41 /* Debug */,
+				EC5E68AB14A221BA00A7ED41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5E68AC14A221BA00A7ED41 /* Build configuration list for PBXNativeTarget "HaoPaiAppV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5E68AD14A221BA00A7ED41 /* Debug */,
+				EC5E68AE14A221BA00A7ED41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC5E68AF14A221BA00A7ED41 /* Build configuration list for PBXNativeTarget "HaoPaiAppV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5E68B014A221BA00A7ED41 /* Debug */,
+				EC5E68B114A221BA00A7ED41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5E687614A221B900A7ED41 /* Project object */;
+}
