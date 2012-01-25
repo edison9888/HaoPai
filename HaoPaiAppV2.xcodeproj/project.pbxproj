@@ -175,8 +175,6 @@
 		EC9AFA4314CFCC6300B4A589 /* checkMarkLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9AFA4114CFCC6300B4A589 /* checkMarkLogo@2x.png */; };
 		EC9AFA4814CFCDBD00B4A589 /* btn-submit-on.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9AFA4414CFCDBD00B4A589 /* btn-submit-on.png */; };
 		EC9AFA4914CFCDBD00B4A589 /* btn-submit-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9AFA4514CFCDBD00B4A589 /* btn-submit-on@2x.png */; };
-		EC9AFA4A14CFCDBD00B4A589 /* btn-submit.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9AFA4614CFCDBD00B4A589 /* btn-submit.png */; };
-		EC9AFA4B14CFCDBD00B4A589 /* btn-submit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC9AFA4714CFCDBD00B4A589 /* btn-submit@2x.png */; };
 		ECC0718114A5F4CE00A8EF54 /* FollowListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC0718014A5F4CE00A8EF54 /* FollowListViewController.m */; };
 		ECC0718414A5F4E100A8EF54 /* HotListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC0718314A5F4E100A8EF54 /* HotListViewController.m */; };
 		ECC0718714A5F4F200A8EF54 /* NewListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC0718614A5F4F200A8EF54 /* NewListViewController.m */; };
@@ -2664,8 +2662,6 @@
 				EC9AFA4314CFCC6300B4A589 /* checkMarkLogo@2x.png in Resources */,
 				EC9AFA4814CFCDBD00B4A589 /* btn-submit-on.png in Resources */,
 				EC9AFA4914CFCDBD00B4A589 /* btn-submit-on@2x.png in Resources */,
-				EC9AFA4A14CFCDBD00B4A589 /* btn-submit.png in Resources */,
-				EC9AFA4B14CFCDBD00B4A589 /* btn-submit@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
